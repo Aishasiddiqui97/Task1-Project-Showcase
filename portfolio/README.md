@@ -1,29 +1,39 @@
-# Aisha A. Siddiqui — Developer Portfolio
+# Aisha A. Siddiqui — Personal Developer Portfolio
 
-Modern, responsive personal portfolio built with HTML5, CSS3, and vanilla JavaScript.
+A premium, modern, fully responsive personal portfolio website built with HTML5, CSS3, and vanilla JavaScript. Showcases professional introduction, technical skills, projects, experience, education, and contact information.
 
 ## Features
-- Dark/light theme toggle with localStorage
+- Dark/light theme toggle (localStorage)
 - Responsive hamburger navigation
 - Smooth scrolling
 - Project cards with detail modals
 - Contact form validation
 - Back-to-top button
 - Reduced-motion support
+- SEO-friendly semantic HTML
 
-## Structure
+## Tech Stack
+- HTML5, CSS3, JavaScript (ES6+)
+- Flexbox, Grid, Media Queries
+- Vercel deployment compatible
+
+## Project Structure
 ```
 portfolio/
 ├── index.html
 ├── css/style.css
 ├── js/script.js
-├── assets/images
-├── assets/icons
+├── assets/images/
+├── assets/icons/
 └── README.md
 ```
 
 ## Run Locally
-Open `index.html` in a browser, or serve with any static server.
+```
+cd portfolio
+python -m http.server 8000
+```
+Open http://localhost:8000
 
 ## Deploy
-Compatible with Vercel: import the repository and deploy as a static site.
+Import repository in Vercel and deploy as static site.
